@@ -1,0 +1,63 @@
+05/08/2020:
+
+- início do projeto 002: calculadora
+
+- criação dos arquivos 'projeto-calculadora.odt', 'tarefas-calculadora.txt' e 'diario-calculadora.txt'
+
+
+07/08/2020:
+
+- atualização dos arquivos 'projeto-calculadora.odt' e 'tarefas-calculadora.txt'
+
+- criação dos arquivos 'calc.html' e 'calc.css'
+
+
+10/08/2020:
+
+- atualização do arquivo 'tarefas-calculadora.txt'
+
+- tarefas de 1 a 9 concluídas (ver 'tarefas-calculadora.txt')
+
+
+13/08/2020:
+
+- criação dos arquivos 'Tela.js' e 'calc.js'
+
+- tarefa 10 concluída (ver 'tarefas-calculadora.txt')
+
+
+07/09/2020:
+
+- criação do arquivo 'Calculadora.js'
+
+- sugestão de alteração 001: pretende-se usar exclusivamente o paradigma POO, portanto o código em 'calc.js' será convertido de acordo com o POO para 'Calculadora.js'
+
+- atualização dos arquivos 'tarefas-calculadora.txt' e 'projeto-calculadora.odt'
+
+- tarefas 11 a 13 concluídas (ver 'tarefas-calculadora.txt')
+
+
+11/09/2020:
+
+- alteração 001: código em 'calc.js' convertido para POO em 'Calculadora.js'
+
+- remoção do arquivo 'calc.js'
+
+- tarefas 14 a 16 concluídas (ver 'tarefas-calculadora.txt')
+
+
+06/11/2020:
+
+- tarefas 17 a 19 concluídas (ver 'tarefas-calculadora.txt')
+
+
+07/11/2020:
+
+- tarefa 20 concluída (ver 'tarefas-calculadora.txt')
+
+
+08/11/2020:
+
+- tarefas 21 a 22 concluídas (ver 'tarefas-calculadora.txt')
+
+- conclusão do projeto 002: calculadora

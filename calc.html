@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <meta name="author" content="Thaís Hoshii">
+    <meta name="description" content="Projeto 002: Calculadora">
+    <meta name="keywords" content="HTML, CSS, Javascript, projeto, calculadora">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="css/calc.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora Aritmética</h1>
+    </header>
+    <main>
+        <section id="tela">
+            <p id="formula-txt"></p>
+            <p id="atual-txt"></p>
+        </section>
+        <table id="teclado">
+            <tr>
+                <td><button class="bt bt-outro" onclick="calc.zerar()">C</button></td>
+                <td><button class="bt bt-outro" onclick="calc.voltar()">&lArr;</button></td>
+                <td><button class="bt bt-sinal" onclick="calc.inserirSinal('/')">&div;</button></td>
+                <td><button class="bt bt-sinal" onclick="calc.inserirSinal('*')">&times;</button></td>
+            <tr>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(7)">7</button></td>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(8)">8</button></td>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(9)">9</button></td>
+                <td><button class="bt bt-sinal" onclick="calc.inserirSinal('-')">&minus;</button></td>
+            </tr>
+            <tr>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(4)">4</button></td>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(5)">5</button></td>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(6)">6</button></td>
+                <td><button class="bt bt-sinal" onclick="calc.inserirSinal('+')">&plus;</button></td>
+            </tr>
+            <tr>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(1)">1</button></td>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(2)">2</button></td>
+                <td><button class="bt bt-numero" onclick="calc.inserirNum(3)">3</button></td>
+                <td rowspan="2"><button class="bt bt-outro" id="bt-igual" onclick="calc.calcular()">&equals;</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button class="bt bt-numero" onclick="calc.inserirNum(0)">0</button></td>
+                <td><button class="bt bt-outro" onclick="calc.fracionar()">&comma;</button></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; por T.H.</p>
+    </footer>
+    <script src="js/Tela.js"></script>
+    <script src="js/Calculadora.js"></script>
+    <script>
+        let calc = new Calculadora();
+    </script>
+</body>
+</html>

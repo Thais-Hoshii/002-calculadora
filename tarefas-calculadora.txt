@@ -1,0 +1,22 @@
+﻿ok    Criar a base do documento HTML.
+ok    Criar a base do documento CSS.
+ok    Fazer referência ao documento “reset.css” dentro do HTML.
+ok    Criar a interface da calculadora (versão mobile).
+ok    Criar os botões da calculadora.
+ok    Testar o tamanho dos componentes da calculadora (versão mobile).
+ok    Ajustar os componentes em suas respectivas áreas.
+ok    Ajustar configuração para versão mobile na horizontal.
+ok    Ajustar a interface e componentes para versão desktop.
+ok    Criar a base do documento Javascript.
+ok    Programar a tela de comando para exibir dados de entrada e saída.
+ok    Implementar as funcionalidades dos botões de número.
+ok    Implementar as funcionalidades dos botões de sinal.
+ok    Implementar a funcionalidade do botão de fração.
+ok    Implementar a funcionalidade do botão de zerar.
+ok    Implementar a funcionalidade do botão de voltar.
+ok    Implementar a funcionalidade do botão de igual.
+ok    Testar atualização da tela de comando.
+ok    Programar o aplicativo para realizar cálculos.
+ok    Testar o programa de cálculo.
+ok    Testar o limite de caracteres.
+ok    Testar erros de cálculo.
