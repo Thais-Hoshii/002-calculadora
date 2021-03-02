@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+/* Formatação para resetar configurações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    font: inherit;
+}
+
 body {
     background-color: #1894ce;
     font-family: Arial, Helvetica, sans-serif;
